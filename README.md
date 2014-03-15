@@ -1,21 +1,21 @@
 mruby-iOS
 =========
 
-build_config.rb to cross-compile mruby for iOS applications. 
+A build_config.rb to cross-compile mruby for iOS applications. 
 
     # cd to your mruby src path
     cd ~/Downloads/mruby-1.0.0
     
     # Compile mrbuy with this build_config.rb
-    MRUBY_CONFIG=(PATH_TO_CLONED_REPO)/build_config.rb ./minirake
+    MRUBY_CONFIG=(PATH_TO_THIS_REPO)/build_config.rb ./minirake
     
     # Navigate to built libraries
     cd build
     
-This should have generated build/iphone-sim, build/iphone-armv7 and build/iphone-armv7s directories. 
-Copy the required libmruby.a from ./build/iphone-*/lib paths to your projects and enjoy. 
-You only need build/iphone-sim/lib/libmruby.a if you're using the iOS simulator, don't forget 
-to copy the headers from include/ path as well
+This should have generated `build/iphone-sim`, `build/iphone-armv7` and `build/iphone-armv7s` directories. 
+Copy the required `libmruby.a` from `build/iphone-*/lib` paths to your projects and enjoy. 
+You only need `build/iphone-sim/lib/libmruby.a` if you're using the iOS simulator, and don't forget 
+to copy the headers from `include/` path as well
 
 RubyMotion
 ----------
