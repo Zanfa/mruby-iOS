@@ -43,3 +43,5 @@ To use mruby in a RubyMotion project, do the following:
 
 7) Run `rake` and look at the console
 
+8) To run on actual devices, you need to copy for `build/iphone-armv7/lib/libmruby.a` and `build/iphone-armv7s/lib/libmruby.a` to `vendor/mruby` as well
+
