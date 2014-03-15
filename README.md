@@ -24,11 +24,11 @@ To use mruby in a RubyMotion project, do the following:
 
 1) Build mruby as explained above
 
-2) Create a new directory vendor/mruby in your RubyMotion project
+2) Create a new directory `vendor/mruby` in your RubyMotion project
 
-3) Copy libmruby.a from build/iphone-sim/lib/libmruby.a to the vendor/mruby directory
+3) Copy `libmruby.a` from `build/iphone-sim/lib/libmruby.a` to the `vendor/mruby` directory
 
-4) Copy everything inside include/ dir to you vendor/mruby directory as well
+4) Copy everything inside `include/` dir to you `vendor/mruby` directory as well
 
 5) Add the following line to your RubyMotion Rakefile
     
